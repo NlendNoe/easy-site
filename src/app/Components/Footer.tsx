@@ -3,7 +3,8 @@ import Link from "next/link"
 export default function Footer() {
     return (
         <div>
-            <div className=" mt-20 border-t pb-20 flex items-center justify-center bg-gray-100">
+            <div className=" border-t pb-20 flex items-center justify-center 
+             text-sky-50 bg-stone-900">
                 
                 <span className="text-2xl mr-20">LOGO</span>
                 <ul className="mt-20">
@@ -32,7 +33,7 @@ export default function Footer() {
                 </ul>
 
             </div>
-            <div className="flex items-center justify-center bg-gray-100 gap-4 pb-4">
+            <div className="flex items-center justify-center bg-gray-100 gap-4 pb-4 text-sky-50 bg-stone-900">
                 <span>2025 Easy,Inc</span>
                 <span>Conditions générales</span>
                 <span>Confidentialité</span>

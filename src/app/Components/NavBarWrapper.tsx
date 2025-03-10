@@ -2,13 +2,12 @@
 import { usePathname } from "next/navigation"
 import NavBar from "./navBar";
 
-export default function NavBarWrapper (){
+export default function NavBarWrapper() {
     const pathname = usePathname()
 
-    if (pathname === "/Login" || pathname === "/CreationCompte"){
+    if (pathname === "/Login" || pathname === "/CreationCompte" || pathname === "/AddHouse" ) {
         return null
     }
-    return <NavBar/>
+    return <NavBar />
 }
 
- 

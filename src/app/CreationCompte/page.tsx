@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 
@@ -26,7 +27,7 @@ export default function CreationCompte(){
                 <span className="text-gray-500 flex items-center justify-center">Cette étape est necessaire à la vérification de vos informations.</span>
 
                 <button
-                    className="w-full bg-blue-500 text-white py-3 rounded-lg font-medium text-lg  hover:bg-blue-600 transition-colors mt-5"
+                    className="w-full bg-stone-900 text-white py-3 rounded-lg font-medium text-lg  hover:bg-white hover:text-black hover:border hover:border-black hover:shadow-md transition-colors duration-300 mt-5"
                     onClick={() => console.log('Réservation')}
                 >Continuer
                 </button>
@@ -34,28 +35,39 @@ export default function CreationCompte(){
                 <span className="text-gray-500 flex items-center justify-center p-5">_____________________ ou _____________________</span>
 
                 <div>
-                    <button
-                        className="w-full text-b py-3 border rounded-lg mt-5"
-                        onClick={() => console.log('Réservation')}
-                    >Continuer avec Google
+                    <button className="w-full text-b py-3 border rounded-lg mt-5 flex justify-center item-center">
+                        <Image 
+                        src="/google.png"
+                        alt=""
+                        width={25} height={20}/>            
+                        Continuer avec Google
                     </button>
 
                     <button
-                        className="w-full text-b py-3 border rounded-lg mt-5"
-                        onClick={() => console.log('Réservation')}
-                    >Continuer avec Apple
+                        className="w-full text-b py-3 border rounded-lg mt-5 flex justify-center item-center"
+                    >
+                        <Image 
+                        src="/apple.png"
+                        alt=""
+                        width={25} height={20}/>  Continuer avec Apple
                     </button>
 
                     <button
-                        className="w-full text-b py-3 border rounded-lg mt-5"
-                        onClick={() => console.log('Réservation')}
-                    >Continuer avec l'adresse e-mail
+                        className="w-full text-b py-3 border rounded-lg mt-5  flex justify-center item-center"
+                    ><Image 
+                    src="/email.png"
+                    alt=""
+                    width={25} height={20}/>
+                        Continuer avec l'adresse e-mail
                     </button>
 
                     <button
-                        className="w-full text-b py-3 border rounded-lg mt-5"
-                        onClick={() => console.log('Réservation')}
-                    >Continuer avec Facebook
+                        className="w-full text-b py-3 border rounded-lg mt-5 flex justify-center item-center"
+                    >
+                         <Image 
+                        src="/facebook.png"
+                        alt=""
+                        width={30} height={30}/>Continuer avec Facebook
                     </button>
                 </div>
 

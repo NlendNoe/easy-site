@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^9.5.1",
+    "@stripe/stripe-js": "^5.9.2",
     "@types/react-datepicker": "^6.2.0",
     "next": "15.1.6",
     "react": "^19.0.0",
