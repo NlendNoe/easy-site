@@ -34,22 +34,22 @@ export default function NavBar() {
             </div>
             <div className="">
                 <ul className="flex  gap-8 m-auto p-4 " style={{ width: "1000px", margin: "0 auto" }}>
-                    <li><Link className="hover:bg-gray-100 transition-colors flex  p-2 rounded-2xl" href="/">
+                    <li><Link className="hover:bg-gray-100 transition-colors p-2 rounded-2xl" href="/">
                         Piscine </Link>
                     </li>
 
-                    <li><Link className="hover:bg-gray-100  flex transition-colors p-2 rounded-2xl" href="/">
+                    <li><Link className="hover:bg-gray-100  transition-colors p-2 rounded-2xl" href="/">
                         Plages Emblématiques</Link>
                     </li>
 
                     <li><Link className="hover:bg-gray-100 transition-colors p-2 rounded-2xl" href="/">Vues Magnifiques</Link></li>
 
-                    <li><Link className="hover:bg-gray-100 transition-colors p-2 flex  rounded-2xl" href="/">
+                    <li><Link className="hover:bg-gray-100 transition-colors p-2  rounded-2xl" href="/">
                     
                         Centre Ville</Link></li>
 
                     <li><Link className="hover:bg-gray-100 transition-colors p-2 rounded-2xl" href="/">Hôtels</Link></li>
-                    <li><Link className="hover:bg-gray-100 transition-colors p-2 rounded-2xl flex" href="/">
+                    <li><Link className="hover:bg-gray-100 transition-colors p-2 rounded-2xl " href="/">
                     Montagnes</Link></li>
 
                 </ul>
